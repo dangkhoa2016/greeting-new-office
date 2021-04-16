@@ -10,8 +10,8 @@
 
 body {
   margin: 0;
-  --color-text: #fff;
-  --color-bg: #000;
+  --color-text: rgb(17, 227, 59);
+  --color-bg: #1574f8;
   --color-link: #fff;
   --color-link-hover: #fff;
   color: var(--color-text);
@@ -97,8 +97,10 @@ a:focus {
 .greeting {
   font-family: 'Anton', sans-serif;
 }
-.greeting.first {
-  margin-bottom: 40px;
+.greeting_last {
+  margin-top: 40px;
+  font-family: 'Vollkorn', serif;
+  color: #ffc107;
 }
 @media screen and (min-width: 53em) {
   .frame {
